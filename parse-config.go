@@ -58,6 +58,7 @@ const (
 
 	NotifyKafkaSubSys    = "notify_kafka"
 	NotifyMQTTSubSys     = "notify_mqtt"
+	NotifyMsSQLSubSys    = "notify_mssql"
 	NotifyMySQLSubSys    = "notify_mysql"
 	NotifyNATSSubSys     = "notify_nats"
 	NotifyNSQSubSys      = "notify_nsq"
@@ -101,6 +102,7 @@ var SubSystems = set.CreateStringSet(
 	ILMSubsys,
 	NotifyKafkaSubSys,
 	NotifyMQTTSubSys,
+	NotifyMsSQLSubSys,
 	NotifyMySQLSubSys,
 	NotifyNATSSubSys,
 	NotifyNSQSubSys,
